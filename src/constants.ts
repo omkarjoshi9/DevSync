@@ -15,7 +15,7 @@ export const LANGUAGE_VERSIONS = {
   export const CODE_SNIPPETS = {
     cpp: "#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n  // your code goes here\n  return 0;\n}",
     
-    python: "# your code goes here\ndef main():\n  # your code goes here\n  pass\n\nmain()",
+    python: "# your code goes here\ndef main():\n  # your code goes here\n  \nmain()",
     
     java: "public class HelloWorld {\n  public static void main(String[] args) {\n    // your code goes here\n  }\n}",
     

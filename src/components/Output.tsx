@@ -20,9 +20,9 @@ const Output = () => {
       </div>
       {/* Output card */}
       <div className="flex-1">
-        <p className="text-sm mb-1 text-white">Output</p>
+        <p className="text-sm mb-3 text-white">Output</p>
         <Card className="w-full bg-white text-black dark:bg-zinc-900 dark:text-zinc-100 shadow-sm font-mono text-sm">
-          <CardContent className="h-full">
+          <CardContent className="h-126">
             <p className="text-md pb-2 text-muted-foreground">
                 Output here
             </p>
