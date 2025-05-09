@@ -8,7 +8,7 @@ const Output = () => {
     <div className="flex flex-col w-full px-4 py-4 space-y-4 overflow-x-hidden">
       {/* Run button */}
       <div>
-        <Button variant='outline'className="px-6 mt-6">Run</Button>
+        <Button className="px-6 mt-6">Run</Button>
       </div>
 
       {/* Input area */}

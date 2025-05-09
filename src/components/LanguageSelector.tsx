@@ -22,7 +22,7 @@ const LanguageSelector = ({language,onSelect}) => {
         </p>
           <DropdownMenu>
           <DropdownMenuTrigger asChild>
-            <Button variant="outline">{language}</Button>
+            <Button >{language}</Button>
           </DropdownMenuTrigger>
           <DropdownMenuContent className="w-56">
             <DropdownMenuLabel>Select Language</DropdownMenuLabel>
