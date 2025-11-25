@@ -1,0 +1,43 @@
+# Note: This docker-compose.yml is optional
+# If you're using NeonDB and Upstash, you don't need to run these services
+# Docker is still required for code execution sandboxing
+
+# Uncomment below if you want to run local PostgreSQL/Redis for development
+
+# version: '3.8'
+# 
+# services:
+#   postgres:
+#     image: postgres:16
+#     container_name: devsync-postgres
+#     environment:
+#       POSTGRES_USER: devsync_user
+#       POSTGRES_PASSWORD: devsync_password
+#       POSTGRES_DB: devsync
+#     ports:
+#       - "5432:5432"
+#     volumes:
+#       - postgres_data:/var/lib/postgresql/data
+#     healthcheck:
+#       test: ["CMD-SHELL", "pg_isready -U devsync_user"]
+#       interval: 10s
+#       timeout: 5s
+#       retries: 5
+# 
+#   redis:
+#     image: redis:7-alpine
+#     container_name: devsync-redis
+#     ports:
+#       - "6379:6379"
+#     volumes:
+#       - redis_data:/data
+#     healthcheck:
+#       test: ["CMD", "redis-cli", "ping"]
+#       interval: 10s
+#       timeout: 5s
+#       retries: 5
+# 
+# volumes:
+#   postgres_data:
+#   redis_data:
+
